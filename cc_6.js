@@ -43,4 +43,11 @@ for (let manager of managers) {
     console.log(manager.describe());
 }
 
-// Step 5: Creating class called Company and 
+// Step 5: Creating class called Company with property employees
+
+class Company {
+    constructor(employees) {
+        this.employees = employees
+        
+    }
+}
