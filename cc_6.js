@@ -47,7 +47,20 @@ for (let manager of managers) {
 
 class Company {
     constructor(employees) {
-        this.employees = employees
-        
+        this.employee = employees
     }
-}
+
+    addemployee(name, department) {
+        ("Cassandra", "Finance")
+    }
+    
+    describe() {
+        return `${this.employee} works in ${this.department} for ${this.manager}`;
+    }
+
+    listEmployees() {
+        this.employee = employees
+    }
+};
+
+// Step 6: 
